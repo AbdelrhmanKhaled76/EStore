@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FAF9F6;
+  overflow-x: hidden;
+}
+.container {
+  width: 80%;
+}
+
+:root {
+  --primary-color :  #CB997E;
+  --secondary-color : #DDBEA9;
+  --teritary-color : #FFF8D6;
+  --alternate-color : #A5A58D;
+  --alternate2-color : #6B705C;
+  --plus-button : #14AE5C;
+  --minus-button : #EC221F;
+}
+
+.h4 {
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+
+.h2 {
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+.h1 {
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+
+.p {
+    font-family: "Zen Loop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem; 
+    text-transform: capitalize;
+  } 
+
+.sectionDesc {
+    font-family: "Zen Loop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+  }
+
+  .layer-parent {
+    position: relative;
+    height: 258px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .layer {
+    transform: translateX(-100%);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.layer-parent:hover .layer{
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.slick-slide {
+  padding: 20px;
+}
+
+
+@media (max-width: 640px) { 
+  .h1 {
+    font-size: 1.8rem ;
+  }
+  .h2 {
+    font-size: 1.5rem;
+  }
+  .sectionDesc {
+    font-size: 1rem;
+  }
+  
+}
+@media (max-width: 768px) { 
+  .h1 {
+    font-size: 2.3rem ;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
+  .sectionDesc {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1024px) { 
+  .h1 {
+    font-size: 2.7rem ;
+  }
+}
+@media (max-width: 1280px) { 
+
+}
+@media (max-width: 1536px) { 
+  
+}

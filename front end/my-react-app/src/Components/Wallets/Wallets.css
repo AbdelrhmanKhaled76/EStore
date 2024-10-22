@@ -1,0 +1,23 @@
+.first-section-wallets {
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/IMG-20240615-WA0032.jpg');
+    height: 100vh;
+}
+
+.bg-between-two-section {
+    background-image: url('../../images/photo_6_2024-08-22_22-38-06.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+  
+  .slick-prev {
+    left: -100px; 
+  }
+  
+  .slick-next {
+    right: -100px; 
+  }

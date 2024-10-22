@@ -1,0 +1,8 @@
+.first-section-home {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url('../../images/photo_2024-08-23_18-41-19.jpg');
+}
+
+.second-section-home {
+    background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../../images/photo_66_2024-08-22_22-38-07.jpg')  ;
+    height: 60vh;
+}
