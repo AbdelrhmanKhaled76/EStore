@@ -14,7 +14,7 @@ import CartProvider from "./Contexts/CartProvider"
 import Purchase from "./Components/Purchase/Purchase"
 
 const queryClient = new QueryClient();
-export const url = 'https://candy-shot-informal-jewellery.trycloudflare.com';
+export const url = 'https://localhost:7168';
 
 
 function App() {
